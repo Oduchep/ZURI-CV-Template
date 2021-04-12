@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans", sans-serif;
+}
+
+a {
+	font-family: "Noto Sans", sans-serif;
+	color: #2865d1;
+}
+
+hr {
+	margin-bottom: 1rem;
+}
+
+h1 {
+	margin: 1rem 0;
+	color: #3374ab;
+	text-transform: uppercase;
+}
+
+.container {
+	font-size: 13px;
+	padding: 1rem 1rem;
+	color: #222e39;
+	line-height: 1.2rem;
+}
+
+.header {
+	text-align: center;
+}
+
+.duration {
+	color: #8fc8f8;
+	float: right;
+	margin-right: 2rem;
+}
+
+ul {
+	margin-top: 0.6rem;
+}
+
+ul div {
+	padding-left: 2rem;
+}
+
+.schools,
+.work,
+.skills,
+.referal {
+	margin: 0.6rem 0;
+}
+
+.number {
+	color: #666666;
+	padding-right: 1rem;
+}
+
+@media screen and (max-width: 899px) and (min-width: 600px) {
+	.container {
+		padding: 4rem;
+		font-size: 16px;
+		line-height: 1.5rem;
+	}
+
+	hr {
+		margin-bottom: 2rem;
+	}
+
+	h1 {
+		margin: 2rem 0;
+	}
+
+	ul div {
+		padding-left: 4rem;
+	}
+
+	.schools,
+	.work,
+	.skills,
+	.referal {
+		margin: 1rem 0;
+	}
+}
+
+@media screen and (max-width: 1640px) and (min-width: 900px) {
+	.container {
+		padding: 6rem 10rem;
+		font-size: 16px;
+		line-height: 1.5rem;
+	}
+
+	hr {
+		margin-bottom: 2rem;
+	}
+
+	h1 {
+		margin: 2rem 0;
+	}
+
+	ul div {
+		padding-left: 4rem;
+	}
+
+	.schools,
+	.work,
+	.skills,
+	.referal {
+		margin: 1rem 0;
+	}
+}
